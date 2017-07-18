@@ -1,0 +1,17 @@
+{
+  "os": "linux",
+  "language": "JS",
+  "before_script": [
+    "nvm install 7.7.1",
+    "npm install npm@latest -g",
+    "npm install -g jshint",
+    "npm install"
+  ],
+  "script": [
+    "npm run production",
+    "jshint js/*",
+    "jshint jquery/*"
+  ],
+  "group": "stable",
+  "dist": "precise"
+}
