@@ -1,7 +1,13 @@
 # Code-Rants
 This is a public repository of my own Chrome New Tab Extension named Code Rant.
-https://chrome.google.com/webstore/detail/coder-rants/beheigghcoemllkkbiplpejjefjaigbe/reviews?utm_source=gmail
+<br>
+<a href="https://chrome.google.com/webstore/detail/coder-rants/beheigghcoemllkkbiplpejjefjaigbe/reviews?utm_source=gmail">Install Here</a>
 
+Build Status
+---------------------
+Travis-CI: [![Build Status](https://travis-ci.org/sanudatta11/Code-Rants.svg?branch=master)](https://travis-ci.org/sanudatta11/Code-Rants/)
+
+<hr>
 <h1> Code Rant</h1>
 
 This extension shows your random rants whenever you open a new tab in chrome. 
@@ -17,8 +23,3 @@ This extension shows your random rants whenever you open a new tab in chrome.
 <li><b>Landing.html file holds the main click popup that appears when you click the extension.</b></li>
 </ul>
 <img src = "https://lh3.googleusercontent.com/2Fn12ikoG2yQJ-kYmRaJmriIMRqJMz202yREPIVknB5xJAZYlkmllVjPqKeL4lHsP-5lof-kDQ=s640-h400-e365-rw">
-
-
-Build Status
----------------------
-Travis-CI: [![Build Status](https://travis-ci.org/sanudatta11/Code-Rants.svg?branch=master)](https://travis-ci.org/sanudatta11/Code-Rants/)
