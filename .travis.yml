@@ -1,6 +1,6 @@
 {
   "os": "linux",
-  "language": "JS",
+  "language": "javascript",
   "before_script": [
     "nvm install 7.7.1",
     "npm install npm@latest -g",
@@ -8,9 +8,7 @@
     "npm install"
   ],
   "script": [
-    "npm run production",
-    "jshint js/*",
-    "jshint jquery/*"
+    "jshint js/custom/*"
   ],
   "group": "stable",
   "dist": "precise"
