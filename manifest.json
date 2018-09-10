@@ -15,6 +15,7 @@
     "newtab": "newtab.html"
   },
   "permissions": [
+    "https://*/devrant*",
     "activeTab",
     "https://ajax.googleapis.com/"
   ]
