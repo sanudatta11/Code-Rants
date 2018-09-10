@@ -15,14 +15,14 @@ if (window.XMLHttpRequest) {
     // code for old IE browsers
     xhttp = new ActiveXObject("Microsoft.XMLHTTP");
 }
-let rantText;
+var rantText;
 var updatedText = false;
-let offlineUpdated = false;
+var offlineUpdated = false;
 var n = Math.floor(Math.random() * data.data.length);
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4) {
         if (this.status >= 200 && this.status <= 304) {
-            let responseObj = JSON.parse(this.responseText);
+            var responseObj = JSON.parse(this.responseText);
             console.log(responseObj.rant.text.length);
             // console.log(responseObj.rant.user_username);
             // console.log(responseObj.rant.user_avatar.i);
