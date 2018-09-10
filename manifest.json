@@ -1,8 +1,8 @@
 {
-  "manifest_version": 2.1,
+  "manifest_version": 2,
   "name": "Coder Rants",
   "description": "Not so Good Rants! Coder's there's something for you. Now find rants directly on your Newtab",
-  "version": "2",
+  "version": "2.1",
   "icons": { "16": "images/code_80-512.png",
     "48": "images/code_80-512.png",
     "128": "images/code_80-512.png" },
